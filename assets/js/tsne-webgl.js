@@ -985,7 +985,7 @@ function addWindowEventListeners() {
     var clustnum = Number(imageClusterName) + 1;
     var clustPrint = clustnum.toString();
       
-    $("#clustername").html('Cluster: ' + clustPrint + ' ' + coords.x + ' ' + coords.y);
+    $("#clustername").html('Cluster: ' + clustPrint);
     
     var brandPercentage = brandPercentages[imageClusterName][imageBrandName];
       
